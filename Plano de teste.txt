@@ -1,0 +1,2 @@
+Plano de teste:
+https://gersykacarollyne.atlassian.net/projects/TDS?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testPlan/TDS-P1

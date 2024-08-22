@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>TDS</projectKey>
+    <exportDate>2024-08-21 03:21:29 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+        <folder fullPath="Tela de Redefinição de Senha ou Email" index="2"/>
+        <folder fullPath="Tela de novo cadastro" index="1"/>
+    </folders>
+    <testCases>
+        <testCase id="177489659" key="TDS-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:19:13 UTC</createdOn>
+            <customFields/>
+            <estimatedTime>72000000</estimatedTime>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Criação de tela de login ]]></name>
+            <objective><![CDATA[Criar tela de login para acesso do usu&aacute;rio ao site]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter usu&aacute;rio e senha registrados.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177489844" key="TDS-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:24:37 UTC</createdOn>
+            <customFields/>
+            <estimatedTime>900000</estimatedTime>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Cliente realizando primeiro acesso]]></name>
+            <objective><![CDATA[Cliente querendo acessar site web sem cadastro]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Estar logado na internet]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177489880" key="TDS-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:25:26 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Cliente clicando em botão para redirecionamento de cadastro.]]></name>
+            <objective><![CDATA[Cliente realizar novo cadastro no ambiente]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Estar logado na internet]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490065" key="TDS-T8">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:32:46 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente inserindo senha e email cadastrados ]]></name>
+            <objective><![CDATA[Cliente conseguir logar no site]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter realizado cria&ccedil;&atilde;o de cadastro na tela de cadastro.]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490077" key="TDS-T9">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:33:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validar que botão Login redirecione ao site]]></name>
+            <objective><![CDATA[Validar que ao clicar no bot&atilde;o login o cliente acesse o site com sucesso]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter realizado cadastro anteriormente]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490185" key="TDS-T10">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:35:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente inserindo senha ou email incorreto]]></name>
+            <objective><![CDATA[Ter mensagem informando que o cliente est&aacute; realizando login com dados incorretos]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[N&atilde;o possuir acesso]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490198" key="TDS-T11">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:35:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validar em tela botão para encaminhar cliente a página de redefinição de senha ou email.]]></name>
+            <objective><![CDATA[Redirecionar o cliente na redefini&ccedil;&atilde;o de senha]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[N&atilde;o ter acesso]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490447" key="TDS-T19">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:45:37 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Cliente inserindo login e senha redefinidos com sucesso]]></name>
+            <objective><![CDATA[Validar que cliente consiga realizar login ap&oacute;s redefini&ccedil;&atilde;o de senha]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter nova senha redefinida e email cadastrado]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490462" key="TDS-T20">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:46:23 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ter botão para salvar login do usuário]]></name>
+            <objective><![CDATA[Validar que cliente consiga salvar seu login e senha com seguran&ccedil;a]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter usu&aacute;rio cadastrado.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177489923" key="TDS-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:26:54 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de novo cadastro]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente realizando novo cadastro]]></name>
+            <objective><![CDATA[Cliente inserindo dados pessoais, residencias e cria&ccedil;&atilde;o de senha.]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter email criado]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177489933" key="TDS-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:28:02 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de novo cadastro]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Criando mensagem para validação e confirmação por email]]></name>
+            <objective><![CDATA[Gerar confirma&ccedil;&atilde;o de email inserido sendo do real propriet&aacute;rio ​]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Cliente ter acesso ao seu email para confirma&ccedil;&atilde;o com sucesso.]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177489955" key="TDS-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:29:15 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de novo cadastro]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Mensagem de cadastro gerado com sucesso]]></name>
+            <objective><![CDATA[Cliente realizar cadastro para logar no site web]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter realizado a verifi&ccedil;&atilde;o por email]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177489968" key="TDS-T7">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:30:18 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de novo cadastro]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Botão retornar ao login ]]></name>
+            <objective><![CDATA[Ter bot&atilde;o para retornar a tela anterior para cliente poder realizar o login no site web]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter cadastrado senha e email.]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490226" key="TDS-T12">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:38:38 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de Redefinição de Senha ou Email]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Verificação de email cadastrado]]></name>
+            <objective><![CDATA[Validar se email inserido pelo cliente &eacute; o mesmo do cadastro.]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter acesso ao email que foi realizado cadatro]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490236" key="TDS-T13">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:39:33 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de Redefinição de Senha ou Email]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Inserir email cadastrado e clicar no botão redefinir senha]]></name>
+            <objective><![CDATA[Ap&oacute;s verificar email cadastrado, cliente poder&aacute; solicitar nova senha]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter acesso ao email cadastrado.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490323" key="TDS-T14">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:40:40 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de Redefinição de Senha ou Email]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Validar que ao clicar no botão Enviar pedido de nova senha gere mensagem de sucesso]]></name>
+            <objective><![CDATA[Validar em tela que o site informe que o email de redefini&ccedil;&atilde;o foi enviado com sucesso.]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter acesso ao email cadastrado.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490332" key="TDS-T15">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:41:26 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de Redefinição de Senha ou Email]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Validar que verificação chegue por email]]></name>
+            <objective><![CDATA[Validar no email do cliente que o pedido de troca de senha chegue com sucesso.]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter acesso ao email cadastrado.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490348" key="TDS-T16">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:42:38 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de Redefinição de Senha ou Email]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Validar que o link recebido por email abre tela para redefinição de senha]]></name>
+            <objective><![CDATA[Validar com cliente que link recebido abra em tela o site com redefini&ccedil;&atilde;o de senha]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter acesso ao email cadastrado]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490356" key="TDS-T17">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:43:15 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de Redefinição de Senha ou Email]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Criar nova senha]]></name>
+            <objective><![CDATA[Que nova senha seja gerada com sucesso.]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Cliente ter acesso ao email e criar nova senha]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="177490362" key="TDS-T18">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gérsyka Carollyne</createdBy>
+            <createdOn>2024-08-21 02:43:57 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Tela de Redefinição de Senha ou Email]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[testedio]]></label>
+            </labels>
+            <name><![CDATA[Validar botão retornar ao login]]></name>
+            <objective><![CDATA[Ap&oacute;s redefini&ccedil;&atilde;o de senha que cliente possa realizar nova tentativa de login]]></objective>
+            <owner>712020:71c32cd8-924b-43fe-b84a-a31ecdd84833</owner>
+            <precondition><![CDATA[Ter senha e email redefinidos]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
